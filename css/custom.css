@@ -81,6 +81,9 @@ PERATURAN PEMBUATAN CSS :
     color: white;
 }
 
+
+/*AMD : Greeting pada halaman depan sampai ke tombol */
+
 #firstPage #greetingMsg .greetingPanel {
     width: 100%;
     padding: 20px;
@@ -115,3 +118,8 @@ PERATURAN PEMBUATAN CSS :
 #firstPage #greetingMsg .greetingPanel .button .btn1 {
     margin-right: 12px;
 }
+
+
+/*AMD : Greeting pada halaman depan sampai ke tombol 
+  #1 = 09/09/2016 - adit_mdd
+*/
