@@ -5,14 +5,14 @@ INFORMASI :
 PERATURAN PEMBUATAN CSS :
 1. UNTUK PENAMAAN ID ATAU KELAS HARUS MENGGUNAKAN KOMENTAR YANG JELAS DAN MENGGUNAKAN NAMA YG SESUAI DENGAN KEBUTUHAN (JANGAN NGASAL NGASIH NAMANYA)
 2. TOLONG UNTUK SETIAP CSS HARUS DIKASIH KETERANGAN UNTUK SETIAP PAGENYA MISAL
-	---- CSS UNTUK PAGE ABOUT US (TENTANG)
-	.TABEL{
+    ---- CSS UNTUK PAGE ABOUT US (TENTANG)
+    .TABEL{
 
-	}
+    }
 
-	FOTO{
+    FOTO{
 
-	}
+    }
 3. SEMANGAT DAN SELAMAT MENGERJAKAN ^_^
 */
 
@@ -117,6 +117,68 @@ PERATURAN PEMBUATAN CSS :
 
 #firstPage #greetingMsg .greetingPanel .button .btn1 {
     margin-right: 12px;
+}
+
+.wrap {
+    max-width: 600px;
+    margin: 150px auto;
+}
+
+.type-wrap {
+    margin: 10px auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    border: #CCC 1px solid;
+}
+
+.links {
+    margin: 20px 0;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
