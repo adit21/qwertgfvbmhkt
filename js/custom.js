@@ -1,10 +1,12 @@
-   // Mengatur Typed.js
+
+   // Mengatur Typed.js di #firstPage
    $(function() {
        $(".element").typed({
-           strings: ["Cepat", "Profesional", "Inovatif", "Kreatif ^2000 "],
+           strings: ["Cepat", "Profesional", "Inovatif", "Kreatif"],
            typeSpeed: 10,
            contentType: 'html',
            loop: true,
+           showCursor: false
        });
    });
    $(function() {
@@ -38,4 +40,4 @@
            contentType: 'html',
            showCursor: false,
        });
-   });
+   }); 

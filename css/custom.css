@@ -20,6 +20,11 @@ PERATURAN PEMBUATAN CSS :
 
 /*AMD : background utama halaman depan*/
 
+#firstPage {
+    position: relative;
+    height: 623px !important;
+}
+
 #firstPage .bg {
     background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
@@ -53,8 +58,14 @@ PERATURAN PEMBUATAN CSS :
 /*AMD : Menghilangkan background & border bawaan bootstrap yang berwarna putih*/
 
 #firstPage #custom-panel .navbar-default {
-    background-color: transparent;
+    background-color: #05101a;
     border: none;
+    height: 81px !important;
+    box-shadow: 0px 0px 6px -2px #000000;
+}
+
+#firstPage #custom-panel .navbar-default .contactext:before {
+    content: "KONTAK KAMI";
 }
 
 
@@ -66,7 +77,7 @@ PERATURAN PEMBUATAN CSS :
 }
 
 #firstPage .navbar-nav {
-    padding: 15px 25px 0px 0px;
+    padding: 16px 25px 0px 0px;
 }
 
 #firstPage .navbar-nav li a {
@@ -89,7 +100,7 @@ PERATURAN PEMBUATAN CSS :
     padding: 20px;
     height: auto;
     position: relative;
-    margin-top: 20%;
+    margin-top: 27%;
 }
 
 #firstPage #greetingMsg .greetingPanel .greeting span {
@@ -99,6 +110,10 @@ PERATURAN PEMBUATAN CSS :
     font-weight: 600;
 }
 
+#firstPage #greetingMsg .greetingPanel .greeting .text:before {
+    content: "Kami";
+}
+
 #firstPage #greetingMsg .greetingPanel .subGreeting span {
     font-size: 20px !important;
     color: #f5f5f5;
@@ -106,9 +121,21 @@ PERATURAN PEMBUATAN CSS :
     font-weight: 300;
 }
 
+#firstPage #greetingMsg .greetingPanel .subGreeting .text:before {
+    content: " Kepuasan Anda Adalah Motivasi Kami !";
+}
+
 #firstPage #greetingMsg .greetingPanel .footGreeting {
     margin-top: 27px;
     font-size: 15px;
+}
+
+#firstPage #greetingMsg .greetingPanel .footGreeting .firstext:before {
+    content: "Raintek adalah perusahaan software house yang melayani pembuatan aplikasi";
+}
+
+#firstPage #greetingMsg .greetingPanel .footGreeting .secondtext:before {
+    content: "dibidang Web Developtment,Desktop Developtment,Mobile Development.";
 }
 
 #firstPage #greetingMsg .greetingPanel .button {
@@ -185,3 +212,31 @@ PERATURAN PEMBUATAN CSS :
 /*AMD : Greeting pada halaman depan sampai ke tombol 
   #1 = 09/09/2016 - adit_mdd
 */
+
+#littlePanelPromotion {
+    background: #f4f4f4;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px #999;
+}
+
+#littlePanelPromotion .panelContent {
+    text-align: left;
+    margin: 30px 0px 30px 0px;
+}
+
+#littlePanelPromotion .panelContent .titleContent span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #292929;
+}
+
+#littlePanelPromotion .panelContent .bodyContent {
+    margin-top: 7px;
+}
+
+#littlePanelPromotion .panelContent .bodyContent span {
+    font-size: 13px;
+    color: #4a4a4a;
+}
