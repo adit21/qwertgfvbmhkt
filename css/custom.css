@@ -1,4 +1,4 @@
-/*
+        /*
 INFORMASI :
 1. CUSTOME.CSS INI DIBUAT UNTUK CSS KUSTOM YANG TIDAK ADA DI BOOTSTRAP
 
@@ -15,228 +15,402 @@ PERATURAN PEMBUATAN CSS :
     }
 3. SEMANGAT DAN SELAMAT MENGERJAKAN ^_^
 */
-
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600';
-
-/*AMD : background utama halaman depan*/
-
-#firstPage {
-    position: relative;
-    height: 623px !important;
-}
-
-#firstPage .bg {
-    background-image: url('../img/bg.jpg');
-    background-repeat: no-repeat;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-size: cover;
-}
-
-
-/*AMD : Warna background biru transparant halaman depan*/
-
-#firstPage .colorBg {
-    background: rgba(1, 13, 25, 0.83);
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-
-/*AMD : ID untuk navbar yang akan dicustom*/
-
-#firstPage #custom-panel {
-    position: relative;
-    z-index: 9999 !important;
-}
-
-
-/*AMD : Menghilangkan background & border bawaan bootstrap yang berwarna putih*/
-
-#firstPage #custom-panel .navbar-default {
-    background-color: #05101a;
-    border: none;
-    height: 81px !important;
-    box-shadow: 0px 0px 6px -2px #000000;
-}
-
-#firstPage #custom-panel .navbar-default .contactext:before {
-    content: "KONTAK KAMI";
-}
-
-
-/*AMD : Atur Posisi Brand Logo dan menu */
-
-#firstPage #custom-panel .navbar-brand {
-    padding: 0 !important;
-    margin-top: -5px;
-}
-
-#firstPage .navbar-nav {
-    padding: 16px 25px 0px 0px;
-}
-
-#firstPage .navbar-nav li a {
-    color: white !important;
-    letter-spacing: 1.1px;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#firstPage #greetingMsg {
-    color: white;
-}
-
-
-/*AMD : Greeting pada halaman depan sampai ke tombol */
-
-#firstPage #greetingMsg .greetingPanel {
-    width: 100%;
-    padding: 20px;
-    height: auto;
-    position: relative;
-    margin-top: 27%;
-}
-
-#firstPage #greetingMsg .greetingPanel .greeting span {
-    font-size: 28px !important;
-    color: #f5f5f5;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-
-#firstPage #greetingMsg .greetingPanel .greeting .text:before {
-    content: "Kami";
-}
-
-#firstPage #greetingMsg .greetingPanel .subGreeting span {
-    font-size: 20px !important;
-    color: #f5f5f5;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
-
-#firstPage #greetingMsg .greetingPanel .subGreeting .text:before {
-    content: " Kepuasan Anda Adalah Motivasi Kami !";
-}
-
-#firstPage #greetingMsg .greetingPanel .footGreeting {
-    margin-top: 27px;
-    font-size: 15px;
-}
-
-#firstPage #greetingMsg .greetingPanel .footGreeting .firstext:before {
-    content: "Raintek adalah perusahaan software house yang melayani pembuatan aplikasi";
-}
-
-#firstPage #greetingMsg .greetingPanel .footGreeting .secondtext:before {
-    content: "dibidang Web Developtment,Desktop Developtment,Mobile Development.";
-}
-
-#firstPage #greetingMsg .greetingPanel .button {
-    margin-top: 27px;
-}
-
-#firstPage #greetingMsg .greetingPanel .button .btn1 {
-    margin-right: 12px;
-}
-
-.wrap {
-    max-width: 600px;
-    margin: 150px auto;
-}
-
-.type-wrap {
-    margin: 10px auto;
-    padding: 20px;
-    background: #f0f0f0;
-    border-radius: 5px;
-    border: #CCC 1px solid;
-}
-
-.links {
-    margin: 20px 0;
-    font-size: 0.75em;
-    text-align: center;
-}
-
-.typed-cursor {
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-
-/*AMD : Greeting pada halaman depan sampai ke tombol 
+        
+        @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600';
+        /*AMD : background utama halaman depan*/
+        
+        #firstPage {
+            position: relative;
+            height: 623px !important;
+        }
+        
+        #firstPage .bg {
+            background-image: url('../img/bg.jpg');
+            background-repeat: no-repeat;
+            background-color: transparent;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-size: cover;
+        }
+        /*AMD : Warna background biru transparant halaman depan*/
+        
+        #firstPage .colorBg {
+            background: rgba(1, 13, 25, 0.83);
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        /*AMD : ID untuk navbar yang akan dicustom*/
+        
+        #firstPage #custom-panel {
+            position: relative;
+            z-index: 9999 !important;
+        }
+        /*AMD : Menghilangkan background & border bawaan bootstrap yang berwarna putih*/
+        
+        #firstPage #custom-panel .navbar-default {
+            background-color: #05101a;
+            border: none;
+            height: 81px !important;
+            box-shadow: 0px 0px 6px -2px #000000;
+        }
+        
+        #firstPage #custom-panel .navbar-default .contactext:before {
+            content: "KONTAK KAMI";
+        }
+        /*AMD : Atur Posisi Brand Logo dan menu */
+        
+        #firstPage #custom-panel .navbar-brand {
+            padding: 0 !important;
+            margin-top: -5px;
+        }
+        
+        #firstPage .navbar-nav {
+            padding: 16px 25px 0px 0px;
+        }
+        
+        #firstPage .navbar-nav li a {
+            color: white !important;
+            letter-spacing: 1.1px;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        #firstPage #greetingMsg {
+            color: white;
+        }
+        /*AMD : Greeting pada halaman depan sampai ke tombol */
+        
+        #firstPage #greetingMsg .greetingPanel {
+            width: 100%;
+            padding: 20px;
+            height: auto;
+            position: relative;
+            margin-top: 27%;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .greeting span {
+            font-size: 28px !important;
+            color: #f5f5f5;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .greeting .text:before {
+            content: "Kami";
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .subGreeting span {
+            font-size: 20px !important;
+            color: #f5f5f5;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .subGreeting .text:before {
+            content: " Kepuasan Anda Adalah Motivasi Kami !";
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .footGreeting {
+            margin-top: 27px;
+            font-size: 15px;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .footGreeting .firstext:before {
+            content: "Raintek adalah perusahaan software house yang melayani pembuatan aplikasi";
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .footGreeting .secondtext:before {
+            content: "dibidang Web Developtment,Desktop Developtment,Mobile Development.";
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .button {
+            margin-top: 27px;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .button .btn1 {
+            margin-right: 12px;
+        }
+        
+        .wrap {
+            max-width: 600px;
+            margin: 150px auto;
+        }
+        
+        .type-wrap {
+            margin: 10px auto;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            border: #CCC 1px solid;
+        }
+        
+        .links {
+            margin: 20px 0;
+            font-size: 0.75em;
+            text-align: center;
+        }
+        
+        .typed-cursor {
+            opacity: 1;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        /*AMD : Greeting pada halaman depan sampai ke tombol 
   #1 = 09/09/2016 - adit_mdd
 */
-
-#littlePanelPromotion {
-    background: #f4f4f4;
-    width: 100%;
-    height: auto;
-    box-shadow: 0px 0px 5px #999;
-}
-
-#littlePanelPromotion .panelContent {
-    text-align: left;
-    margin: 30px 0px 30px 0px;
-}
-
-#littlePanelPromotion .panelContent .titleContent span {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    color: #292929;
-}
-
-#littlePanelPromotion .panelContent .bodyContent {
-    margin-top: 7px;
-}
-
-#littlePanelPromotion .panelContent .bodyContent span {
-    font-size: 13px;
-    color: #4a4a4a;
-}
+        
+        #littlePanelPromotion {
+            background: #f4f4f4;
+            width: 100%;
+            height: auto;
+            box-shadow: 0px 0px 5px #999;
+        }
+        
+        #littlePanelPromotion .panelContent {
+            text-align: left;
+            margin: 30px 0px 30px 0px;
+        }
+        
+        #littlePanelPromotion .panelContent .titleContent span {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            color: #292929;
+        }
+        
+        #littlePanelPromotion .panelContent .bodyContent {
+            margin-top: 7px;
+        }
+        
+        #littlePanelPromotion .panelContent .bodyContent span {
+            font-size: 13px;
+            color: #4a4a4a;
+        }
+        /*W.S : Portofolio */
+        
+        #firstPage .porto_bg {
+            background-image: url('../img/bg.jpg');
+            background-repeat: no-repeat;
+            background: transparent;
+            width: 100%;
+            height: 400px;
+            position: absolute;
+            background-size: cover;
+        }
+        /*WS : Warna background biru transparant halaman depan*/
+        
+        #firstPage .porto_colorBg {
+            background: rgba(1, 13, 25, 0.83);
+            width: 100%;
+            height: 400px;
+            position: absolute;
+        }
+        
+        #porto_page {
+            width: 80%;
+            margin-left: 10%;
+            height: auto;
+            margin-top: 100px;
+            position: absolute;
+        }
+        
+        .porto_header {
+            width: 100%;
+            float: left;
+            background: transparent;
+            height: 100px;
+            color: #ffffff;
+        }
+        
+        .porto_header .title1 {
+            width: 100%;
+            float: left;
+            padding: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 28px;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .porto_header .title2 {
+            width: 100%;
+            float: left;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            columns: #666;
+            text-align: center;
+        }
+        
+        .porto_top_kontent {
+            width: 100%;
+            float: left;
+            margin-top: 20px;
+            background: transparent;
+            height: 200px;
+        }
+        
+        .porto_top_kontent .img_kontent {
+            width: 25%;
+            float: left;
+            height: 200px;
+            background: #eee;
+        }
+        
+        .radius_left {
+            border-radius: 8px 0px 0px 8px;
+        }
+        
+        .radius_right {
+            border-radius: 0px 8px 8px 0px;
+        }
+        
+        .porto_top_kontent .img_kontent .img {
+            width: 100%;
+            float: left;
+            height: auto;
+            margin-top: 40px;
+        }
+        
+        .porto_top_kontent .img_kontent .img_cs {
+            width: 50%;
+            margin-left: 25%;
+            height: 100px;
+            background: #333;
+        }
+        
+        .porto_top_kontent .img_kontent .img_text {
+            width: 100%;
+            padding: 10px;
+            float: left;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .porto_bottom_kontent {
+            width: 100%;
+            float: left;
+            margin-top: 50px;
+            height: 250px;
+        }
+        
+        .porto_bottom_kontent .img_kontent {
+            width: 32%;
+            float: left;
+            /*background: #09f;*/
+            height: auto;
+        }
+        
+        .porto_bottom_kontent .img_kontent2 {
+            width: 32%;
+            float: left;
+            margin-left: 2%;
+            /*background: #09f;*/
+            height: auto;
+        }
+        
+        .porto_bottom_kontent .img_kontent3 {
+            width: 32%;
+            float: left;
+            margin-left: 2%;
+            /*background: #09f;*/
+            height: auto;
+        }
+        
+        .porto_bottom_kontent .img_kontent .img_1 {
+            width: 100%;
+            float: left;
+            height: auto;
+            /* background: #666;*/
+        }
+        
+        .porto_bottom_kontent .img_kontent .img_1 .img_cs {
+            width: 100%;
+            height: 250px;
+            border-radius: 8px;
+            background-size: 100%;
+            background-image: url("https://dddzt2lgm9829kf8h1xs31gi-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/elektron.jpg");
+        }
+        
+        .porto_bottom_kontent .img_kontent2 .img_2 {
+            width: 100%;
+            float: left;
+            height: auto;
+            /* background: #666;*/
+        }
+        
+        .porto_bottom_kontent .img_kontent2 .img_2 .img_cs {
+            width: 100%;
+            height: 250px;
+            border-radius: 8px;
+            background-size: 100%;
+            background-image: url("https://dddzt2lgm9829kf8h1xs31gi-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/bgsa2.jpg");
+        }
+        
+        .porto_bottom_kontent .img_kontent3 .img_3 {
+            width: 100%;
+            float: left;
+            height: auto;
+            /* background: #666;*/
+        }
+        
+        .porto_bottom_kontent .img_kontent3 .img_3 .img_cs {
+            width: 100%;
+            height: 250px;
+            border-radius: 8px;
+            background-size: 100%;
+            background-image: url("https://dddzt2lgm9829kf8h1xs31gi-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/rgduncan.jpg");
+        }
+        
+        .porto_bottom_kontent .img_kontent .img_text {
+            width: 100%;
+            float: left;
+            padding: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
