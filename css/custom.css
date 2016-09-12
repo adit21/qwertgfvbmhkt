@@ -240,3 +240,122 @@ PERATURAN PEMBUATAN CSS :
     font-size: 13px;
     color: #4a4a4a;
 }
+
+/*
+------------UNTUK HALAMAN ABOUT--------------------
+Created By : Mohammad Satria;
+*/
+
+
+.active{
+    background-color: #c9302c;
+    border-radius: 4px;
+}
+
+.active:hover{
+    border: 1px solid #c9302c ;
+}
+
+.logoRaintek{
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.tentangKami{
+    width: 100%;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+.tentangKami h1{
+    font-size: 22px;
+}
+
+.tentangKami h1:after{
+    display: block;
+    width: 100px;
+    height: 2px;
+    content: "";
+    margin-top: 12px;
+    background-color: #209ad6;
+}
+
+.tentangKami p{
+    padding-top: 2%;
+    text-align: left;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+/*
+    team
+*/
+.team{
+    padding: 10px;
+    background-color: #f0f3f6;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+
+.team h1{
+    font-size: 25px;
+}
+
+.team h1:after{
+    display: block;
+    width: 100px;
+    height: 2px;
+    content: "";
+    margin-top: 12px;
+    background-color: #209ad6;
+}
+
+.team p{
+    font-size: 15px;
+}
+
+.italic{
+    font-style: italic !important;
+}
+
+.kotakKeterangan{
+    border-bottom: 2px solid #d4d4d8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.borderCircle{
+    border: 5px solid #d4d4d8;
+}
+
+.nama{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.jabatan{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.keunggulan h1{
+    font-size: 25px;
+}
+
+.keunggulan h1:after{
+    display: block;
+    width: 100px;
+    height: 2px;
+    content: "";
+    margin-top: 12px;
+    background-color: #209ad6;
+}
+
+.noneBorderBottom{
+    border-bottom: none !important;
+}
+
+/*-------------------SELESAI UNTUK CSS PAGE ABOUT-------------*/
