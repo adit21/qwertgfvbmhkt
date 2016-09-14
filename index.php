@@ -17,6 +17,7 @@
             <link href="bower_components/animate.css/animate.min.css" rel="stylesheet" type="text/css"/>
             <link href="bower_components/wow/css/libs/animate.css" rel="stylesheet" type="text/css"/>
             <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
             <!-- javascript -->
             <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript">
             </script>
@@ -31,6 +32,7 @@
             <script type="text/javascript">
                 new WOW().init();
             </script>
+            <script type="text/javascript" src="bower_components/smoothscrolladit/smoothscrolladit.js"></script>
         </meta>
     </head>
 </html>
@@ -58,7 +60,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="tentang" href="#about">
+                            <a class="tentang" href="page/about.php#pageScroll">
                             </a>
                         </li>
                         <li>
@@ -368,7 +370,7 @@
             </div>
         </div>
     </div>
-    <?php 
-        include 'page/footer.html';
-     ?>
+    <?php
+include 'page/footer.html';
+?>
 </body>

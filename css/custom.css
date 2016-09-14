@@ -572,8 +572,34 @@ Created By : Mohammad Satria;
         text-align: center;
     }
     
-    .borderCircle {
-        border: 5px solid #d4d4d8;
+    .imgPanel {
+        width: 150px;
+        height: 150px;
+        border: 1px solid;
+        border-radius: 50%;
+        background-size: cover;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .imgsatria {
+        background: url('../img/IMG_2076.JPG');
+        background-size: cover;
+    }
+    
+    .imgadit {
+        background: url('../img/adit.JPG');
+        background-size: cover;
+    }
+    
+    .imgagus {
+        background: url('../img/adit.JPG');
+        background-size: cover;
+    }
+    
+    .imgidrus {
+        background: url('../img/adit.JPG');
+        background-size: cover;
     }
     
     .nama {
