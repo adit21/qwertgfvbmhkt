@@ -33,9 +33,7 @@
                 new WOW().init();
             </script>
             <script type="text/javascript" src="bower_components/smoothscrolladit/smoothscrolladit.js"></script>
-        </meta>
     </head>
-</html>
 <body>
     <div id="firstPage">
         <!-- AMD : Warna background biru transparant halaman depan -->
@@ -374,3 +372,4 @@
 include 'page/footer.html';
 ?>
 </body>
+</html>

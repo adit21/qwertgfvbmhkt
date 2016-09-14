@@ -211,50 +211,7 @@
 
 
     </div>
-    <!-- KEUNGGULAN -->
-    <!--     <div class="container-fluid">
-        <div class="keunggulan row">
-            <center>
-                <h1>
-                    Keunggulan
-                </h1>
-            </center>
-            <div class="col-md-3">
-                <div class="kotakKeterangan noneBorderBottom">
-                    <img src="../img/tim.png">
-                        <h3>
-                            Kerja Tim
-                        </h3>
-                    </img>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="kotakKeterangan noneBorderBottom">
-                    <img src="../img/waktu.png">
-                        <h3>
-                            Kerja Cepat
-                        </h3>
-                    </img>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="kotakKeterangan noneBorderBottom">
-                    <img src="../img/code.png">
-                        <h3>
-                            Aplikasi Mudah Digunakan
-                        </h3>
-                    </img>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="kotakKeterangan noneBorderBottom">
-                    <img src="../img/responsiv.png">
-                        <h3>
-                            Aplikasi Fleksibel
-                        </h3>
-                    </img>
-                </div>
-            </div>
-        </div>
-    </div> -->
+   <?php
+include 'footer.html';
+?>
 </body>

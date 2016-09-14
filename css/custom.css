@@ -493,7 +493,7 @@ Created By : Mohammad Satria;
 */
     
     .active {
-        background-color: #c9302c;
+        background-color: rgba(4, 20, 35, 0.95);
         border-radius: 4px;
     }
     
@@ -572,7 +572,7 @@ Created By : Mohammad Satria;
         text-align: center;
     }
     
-    .imgPanel {
+    .kotakKeterangan .imgPanel {
         width: 150px;
         height: 150px;
         border: 1px solid;
