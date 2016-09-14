@@ -17,6 +17,8 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "typed.js": "^1.1.4",
-    "wow": "wowjs#^1.1.2"
+    "wow": "wowjs#^1.1.2",
+    "components-font-awesome": "^4.6.3",
+    "smoothscrolladit": "*"
   }
 }
