@@ -153,22 +153,20 @@
             "Tim yang baik adalah yang dapat bekerja sama dan saling membantu satu sama lain"
         </p>
         <!-- FOTO TIM -->
-
         <div class="col-md-3">
             <div class="kotakKeterangan">
                 <div class="imgPanel imgsatria">
                     <div class="title">
-                    <h3 class="nama">
-                        Wahyu Sahaja
-                    </h3>
-                    <em class="jabatan">
-                        Back-End Developer
-                    </em>
+                        <h3 class="nama">
+                            Wahyu Sahaja
+                        </h3>
+                        <em class="jabatan">
+                            Back-End Developer
+                        </em>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="col-md-3">
             <div class="kotakKeterangan">
                 <div class="imgPanel imgadit">
@@ -181,8 +179,7 @@
                 </div>
             </div>
         </div>
-
-            <div class="col-md-3">
+        <div class="col-md-3">
             <div class="kotakKeterangan">
                 <div class="imgPanel imgagus">
                     <h3 class="nama">
@@ -194,8 +191,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="col-md-3">
             <div class="kotakKeterangan">
                 <div class="imgPanel imgidrus">
@@ -208,10 +203,13 @@
                 </div>
             </div>
         </div>
-
-
     </div>
-   <?php
-include 'footer.html';
-?>
+    <!-- load footer -->
+    <div id="footer">
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#footer").load("footer.html");
+        });
+    </script>
 </body>
