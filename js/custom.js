@@ -4,8 +4,7 @@ $(function() {
         strings: ["Akurat", "Cepat", "Profesional", "Inovatif", "Kreatif"],
         typeSpeed: 10,
         contentType: 'html',
-        loop: true,
-        showCursor: false
+        loop: true
     });
 });
 $(function() {
@@ -34,7 +33,7 @@ $(function() {
 });
 $(function() {
     $(".layanan").typed({
-        strings: ["LAYANAN"],
+        strings: ["KONTAK KAMI"],
         typeSpeed: 0,
         contentType: 'html',
         showCursor: false,
