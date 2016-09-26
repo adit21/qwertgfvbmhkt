@@ -26,24 +26,24 @@ PERATURAN PEMBUATAN CSS :
         }
     3. SEMANGAT DAN SELAMAT MENGERJAKAN ^_^
     */
-    
-    @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600';
-    /*AMD : background utama halaman depan*/
-    
-    #firstPage {
-        position: relative;
-        height: 623px !important;
-    }
-    
-    #firstPage .bg {
-        background-image: url('../img/bg.jpg');
-        background-repeat: no-repeat;
-        background-color: transparent;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-size: cover;
-    }
+        
+        @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600';
+        /*AMD : background utama halaman depan*/
+        
+        #firstPage {
+            position: relative;
+            height: 623px !important;
+        }
+        
+        #firstPage .bg {
+            background-image: url('../img/bg.jpg');
+            background-repeat: no-repeat;
+            background-color: transparent;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-size: cover;
+        }
         
         @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600';
         /*AMD : background utama halaman depan*/
@@ -97,7 +97,8 @@ PERATURAN PEMBUATAN CSS :
         }
         
         #firstPage .navbar-nav {
-            padding: 16px 25px 0px 0px;
+            padding: 7px 25px 0px 0px;
+            ;
         }
         
         #firstPage .navbar-nav li a {
@@ -256,629 +257,625 @@ PERATURAN PEMBUATAN CSS :
             font-size: 13px;
             color: #4a4a4a;
         }
-
-    /*AMD : Warna background biru transparant halaman depan*/
-    
-    #firstPage .colorBg {
-        background: rgba(1, 13, 25, 0.83);
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-    }
-    /*AMD : ID untuk navbar yang akan dicustom*/
-    
-    #firstPage #custom-panel {
-        position: relative;
-        z-index: 9999 !important;
-    }
-    /*AMD : Menghilangkan background & border bawaan bootstrap yang berwarna putih*/
-    
-    #firstPage #custom-panel .navbar-default {
-        background-color: #05101a;
-        border: none;
-        height: 81px !important;
-        box-shadow: 0px 0px 6px -2px #000000;
-    }
-    
-    #firstPage #custom-panel .navbar-default .contactext:before {
-        content: "KONTAK KAMI";
-    }
-    /*AMD : Atur Posisi Brand Logo dan menu */
-    
-    #firstPage #custom-panel .navbar-brand {
-        padding: 0 !important;
-        margin-top: -5px;
-    }
-    
-    #firstPage .navbar-nav {
-        padding: 16px 25px 0px 0px;
-    }
-    
-    #firstPage .navbar-nav li a {
-        color: white !important;
-        letter-spacing: 1.1px;
-        font-size: 14px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    #firstPage #greetingMsg {
-        color: white;
-    }
-    /*AMD : Greeting pada halaman depan sampai ke tombol */
-    
-    #firstPage #greetingMsg .greetingPanel {
-        width: 100%;
-        padding: 20px;
-        height: auto;
-        position: relative;
-        margin-top: 27%;
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .greeting span {
-        font-size: 28px !important;
-        color: #f5f5f5;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .greeting .text:before {
-        content: "Raintek";
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .subGreeting span {
-        font-size: 20px !important;
-        color: #f5f5f5;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .subGreeting .text:before {
-        content: " Kepuasan Anda Adalah Motivasi Kami !";
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .footGreeting {
-        margin-top: 27px;
-        font-size: 15px;
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .footGreeting .firstext:before {
-        content: "Raintek adalah perusahaan software house yang melayani pembuatan aplikasi";
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .footGreeting .secondtext:before {
-        content: "dibidang Web Developtment,Desktop Developtment,Mobile Development.";
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .button {
-        margin-top: 27px;
-    }
-    
-    #firstPage #greetingMsg .greetingPanel .button .btn1 {
-        margin-right: 12px;
-    }
-    
-    .wrap {
-        max-width: 600px;
-        margin: 150px auto;
-    }
-    
-    .type-wrap {
-        margin: 10px auto;
-        padding: 20px;
-        background: #f0f0f0;
-        border-radius: 5px;
-        border: #CCC 1px solid;
-    }
-    
-    .links {
-        margin: 20px 0;
-        font-size: 0.75em;
-        text-align: center;
-    }
-    
-    .typed-cursor {
-        opacity: 1;
-        -webkit-animation: blink 0.7s infinite;
-        -moz-animation: blink 0.7s infinite;
-        animation: blink 0.7s infinite;
-    }
-    
-    @keyframes blink {
-        0% {
+        /*AMD : Warna background biru transparant halaman depan*/
+        
+        #firstPage .colorBg {
+            background: rgba(1, 13, 25, 0.83);
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        /*AMD : ID untuk navbar yang akan dicustom*/
+        
+        #firstPage #custom-panel {
+            position: relative;
+            z-index: 9999 !important;
+        }
+        /*AMD : Menghilangkan background & border bawaan bootstrap yang berwarna putih*/
+        
+        #firstPage #custom-panel .navbar-default {
+            background-color: #05101a;
+            border: none;
+            height: 81px !important;
+            box-shadow: 0px 0px 6px -2px #000000;
+        }
+        
+        #firstPage #custom-panel .navbar-default .contactext:before {
+            content: "KONTAK KAMI";
+        }
+        /*AMD : Atur Posisi Brand Logo dan menu */
+        
+        #firstPage #custom-panel .navbar-brand {
+            padding: 0 !important;
+            margin-top: -5px;
+        }
+        
+        #firstPage .navbar-nav li a {
+            color: white !important;
+            letter-spacing: 1.1px;
+            font-size: 14px;
+            text-transform: uppercase;
+            height: 46px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        #firstPage #greetingMsg {
+            color: white;
+        }
+        /*AMD : Greeting pada halaman depan sampai ke tombol */
+        
+        #firstPage #greetingMsg .greetingPanel {
+            width: 100%;
+            padding: 20px;
+            height: auto;
+            position: relative;
+            margin-top: 27%;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .greeting span {
+            font-size: 28px !important;
+            color: #f5f5f5;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .greeting .text:before {
+            content: "Raintek";
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .subGreeting span {
+            font-size: 20px !important;
+            color: #f5f5f5;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .subGreeting .text:before {
+            content: " Kepuasan Anda Adalah Motivasi Kami !";
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .footGreeting {
+            margin-top: 27px;
+            font-size: 15px;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .footGreeting .firstext:before {
+            content: "Raintek adalah perusahaan software house yang melayani pembuatan aplikasi";
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .footGreeting .secondtext:before {
+            content: "dibidang Web Developtment,Desktop Developtment,Mobile Development.";
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .button {
+            margin-top: 27px;
+        }
+        
+        #firstPage #greetingMsg .greetingPanel .button .btn1 {
+            margin-right: 12px;
+        }
+        
+        .wrap {
+            max-width: 600px;
+            margin: 150px auto;
+        }
+        
+        .type-wrap {
+            margin: 10px auto;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            border: #CCC 1px solid;
+        }
+        
+        .links {
+            margin: 20px 0;
+            font-size: 0.75em;
+            text-align: center;
+        }
+        
+        .typed-cursor {
             opacity: 1;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
         }
-        50% {
-            opacity: 0;
+        
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
-        100% {
-            opacity: 1;
+        
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
-    }
-    
-    @-webkit-keyframes blink {
-        0% {
-            opacity: 1;
+        
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
-        50% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-    
-    @-moz-keyframes blink {
-        0% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-    /*AMD : Greeting pada halaman depan sampai ke tombol 
+        /*AMD : Greeting pada halaman depan sampai ke tombol 
       #1 = 09/09/2016 - adit_mdd
     */
-    
-    #littlePanelPromotion {
-        background: #f4f4f4;
-        width: 100%;
-        height: auto;
-        box-shadow: 0px 0px #ddd;
-    }
-    
-    #littlePanelPromotion .panelContent {
-        text-align: left;
-        margin: 30px 0px 30px 0px;
-    }
-    
-    #littlePanelPromotion .panelContent .titleContent span {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: bold;
-        font-size: 15px;
-        color: #292929;
-    }
-    
-    #littlePanelPromotion .panelContent .bodyContent {
-        margin-top: 7px;
-    }
-    
-    #littlePanelPromotion .panelContent .bodyContent span {
-        font-size: 13px;
-        color: #4a4a4a;
-    }
-    
-    #secondPage {
-        position: relative;
-        width: 100%;
-        background-color: white;
-        margin: 1px 0px 0px 0px;
-        padding: 0px 0px 110px 0px;
-        box-shadow: 0px 0px 10px #ddd;
-    }
-    
-    #secondPage .panelContent {
-        text-align: left;
-        margin-top: 26%;
-        height: 200px;
-    }
-    
-    #secondPage .panelContent .title h3 {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
-        padding: 0px 0px 7px 0px;
-    }
-    
-    #secondPage .panelContent .list {
-        background-color: #d9534f;
-        width: 20%;
-        height: 2px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    
-    #secondPage .panelContent .content span {
-        font-size: 13px;
-        color: #4a4a4a;
-    }
-    
-    #secondPage .panelContent .button {
-        list-style-type: none;
-        margin-top: 20px;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 13px;
-        color: #4a4a4a;
-        font-family: 'open Sans', sans-serif;
-    }
-    
-    #secondPage .imgPanel {
-        text-align: center;
-        margin-top: 16%;
-    }
-    
-    #secondPage .imgPanel img {
-        width: 620px;
-        text-align: center;
-        position: relative;
-    }
-    
-    #portoScreen {
-        margin-top: 18px;
-    }
-    
-    #portoScreen .portoScreenPanel {
-        margin-bottom: 17px;
-        text-align: right;
-    }
-    
-    #portoScreen .portoScreenPanel .photo {
-        background-color: white;
-        padding: 10px;
-        margin: 0px 10px 0px 0px;
-        border: 1px solid #eee;
-    }
-    
-    #portoScreen .portoScreenPanel img {
-        width: 315px;
-        height: auto;
-    }
-    
-    #thirdPage {
-        background-color: white;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    
-    #thirdPage .bigTitle h3 {
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
-        font-size: 22px;
-        padding-bottom: 8px;
-    }
-    
-    #thirdPage .list {
-        background-color: #d9534f;
-        width: 15%;
-        height: 2px;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 16px;
-    }
-    
-    #thirdPage .subTitle span {
-        font-size: 14px;
-        text-align: center;
-        color: #737373;
-    }
-    
-    #promotionContent {
-        margin-top: 3.3% !important;
-        margin: 0 auto;
-    }
-    
-    #promotionContent .contentPanel {
-        padding: 26px;
-    }
-    
-    #promotionContent .title {
-        font-size: 15px !important;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
-    }
-    
-    #promotionContent .title i {
-        color: #337ab7;
-        font-size: 26px;
-        padding: 5px;
-    }
-    
-    #promotionContent .content {
-        font-size: 13px;
-        color: #737373;
-        margin: 10px 0px 0px 0px;
-    }
-    
-    #startNow .text {
-        padding: 30px 0px 30px 0px !important;
-    }
-    
-    #startNow .text span {
-        font-size: 17px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
-        padding: 30px;
-    }
-    /*--------------------------------
+        
+        #littlePanelPromotion {
+            background: #f4f4f4;
+            width: 100%;
+            height: auto;
+            box-shadow: 0px 0px #ddd;
+        }
+        
+        #littlePanelPromotion .panelContent {
+            text-align: left;
+            margin: 30px 0px 30px 0px;
+        }
+        
+        #littlePanelPromotion .panelContent .titleContent span {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            color: #292929;
+        }
+        
+        #littlePanelPromotion .panelContent .bodyContent {
+            margin-top: 7px;
+        }
+        
+        #littlePanelPromotion .panelContent .bodyContent span {
+            font-size: 13px;
+            color: #4a4a4a;
+        }
+        
+        #secondPage {
+            position: relative;
+            width: 100%;
+            background-color: white;
+            margin: 1px 0px 0px 0px;
+            padding: 0px 0px 110px 0px;
+            box-shadow: 0px 0px 10px #ddd;
+        }
+        
+        #secondPage .panelContent {
+            text-align: left;
+            margin-top: 26%;
+            height: 200px;
+        }
+        
+        #secondPage .panelContent .title h3 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            padding: 0px 0px 7px 0px;
+        }
+        
+        #secondPage .panelContent .list {
+            background-color: #d9534f;
+            width: 20%;
+            height: 2px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        #secondPage .panelContent .content span {
+            font-size: 13px;
+            color: #4a4a4a;
+        }
+        
+        #secondPage .panelContent .button {
+            list-style-type: none;
+            margin-top: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 13px;
+            color: #4a4a4a;
+            font-family: 'open Sans', sans-serif;
+        }
+        
+        #secondPage .imgPanel {
+            text-align: center;
+            margin-top: 16%;
+        }
+        
+        #secondPage .imgPanel img {
+            width: 620px;
+            text-align: center;
+            position: relative;
+        }
+        
+        #portoScreen {
+            margin-top: 18px;
+        }
+        
+        #portoScreen .portoScreenPanel {
+            margin-bottom: 17px;
+            text-align: right;
+        }
+        
+        #portoScreen .portoScreenPanel .photo {
+            background-color: white;
+            padding: 10px;
+            margin: 0px 10px 0px 0px;
+            border: 1px solid #eee;
+        }
+        
+        #portoScreen .portoScreenPanel img {
+            width: 315px;
+            height: auto;
+        }
+        
+        #thirdPage {
+            background-color: white;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        #thirdPage .bigTitle h3 {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            padding-bottom: 8px;
+        }
+        
+        #thirdPage .list {
+            background-color: #d9534f;
+            width: 15%;
+            height: 2px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 16px;
+        }
+        
+        #thirdPage .subTitle span {
+            font-size: 14px;
+            text-align: center;
+            color: #737373;
+        }
+        
+        #promotionContent {
+            margin-top: 3.3% !important;
+            margin: 0 auto;
+        }
+        
+        #promotionContent .contentPanel {
+            padding: 26px;
+        }
+        
+        #promotionContent .title {
+            font-size: 15px !important;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+        }
+        
+        #promotionContent .title i {
+            color: #337ab7;
+            font-size: 26px;
+            padding: 5px;
+        }
+        
+        #promotionContent .content {
+            font-size: 13px;
+            color: #737373;
+            margin: 10px 0px 0px 0px;
+        }
+        
+        #startNow .text {
+            padding: 30px 0px 30px 0px !important;
+        }
+        
+        #startNow .text span {
+            font-size: 17px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            padding: 30px;
+        }
+        /*--------------------------------
         12 September 2016
         AMD - Footer
         Follow us on instagram
     ----------------------------------*/
-    
-    #footer {
-        width: 100%;
-        background-color: white;
-        height: 450px;
-    }
-    
-    #footer .footerImg {
-        background: url('../img/footer.jpg');
-        width: 100%;
-        height: 450px;
-        background-size: cover;
-        background-position: -115px;
-    }
-    
-    #footer .colorBg {
-        background: rgba(1, 13, 25, 0.93);
-        z-index: 1;
-        width: 100%;
-        height: 450px;
-        position: absolute;
-    }
-    
-    #footer .panels {
-        margin-top: 15%;
-    }
-    
-    #footer .colorBg span {
-        padding: 20px;
-        z-index: 111;
-        width: 100%;
-        color: white;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 3rem;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    #footer .colorBg a {
-        margin: 12px 0px 0px 0px;
-        font-family: 'Open Sans', sans-serif;
-        letter-spacing: 1.1px;
-        text-transform: uppercase;
-        padding: 15px 15px 15px 15px;
-    }
-    
-    #footer .list {
-        background-color: #d9534f;
-        width: 15%;
-        height: 2px;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 14px;
-    }
-    
-    #panelInfo {
-        width: 100%;
-        height: 200px;
-    }
-    
-    #panelInfo .contactUs {
-        width: 100%;
-        padding: 20px;
-        text-align: right;
-    }
-    
-    #panelInfo .contactUs i {
-        color: #d9534f;
-        font-size: 20px;
-        padding: 10px;
-    }
-    
-    #panelInfo .contactUs span {
-        font-size: 15px;
-        padding-right: 20px;
-    }
-    
-    #panelInfo .contactUs {
-        border-bottom: 1px #ddd solid;
-    }
-    }
-    /*AMD : Greeting pada halaman depan sampai ke tombol 
+        
+        #footer {
+            width: 100%;
+            background-color: white;
+            height: 450px;
+        }
+        
+        #footer .footerImg {
+            background: url('../img/footer.jpg');
+            width: 100%;
+            height: 450px;
+            background-size: cover;
+            background-position: -115px;
+        }
+        
+        #footer .colorBg {
+            background: rgba(1, 13, 25, 0.93);
+            z-index: 1;
+            width: 100%;
+            height: 450px;
+            position: absolute;
+        }
+        
+        #footer .panels {
+            margin-top: 15%;
+        }
+        
+        #footer .colorBg span {
+            padding: 20px;
+            z-index: 111;
+            width: 100%;
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 3rem;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        #footer .colorBg a {
+            margin: 12px 0px 0px 0px;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 1.1px;
+            text-transform: uppercase;
+            padding: 15px 15px 15px 15px;
+        }
+        
+        #footer .list {
+            background-color: #d9534f;
+            width: 15%;
+            height: 2px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 14px;
+        }
+        
+        #panelInfo {
+            width: 100%;
+            height: 200px;
+        }
+        
+        #panelInfo .contactUs {
+            width: 100%;
+            padding: 20px;
+            text-align: right;
+        }
+        
+        #panelInfo .contactUs i {
+            color: #d9534f;
+            font-size: 20px;
+            padding: 10px;
+        }
+        
+        #panelInfo .contactUs span {
+            font-size: 15px;
+            padding-right: 20px;
+        }
+        
+        #panelInfo .contactUs {
+            border-bottom: 1px #ddd solid;
+        }
+        }
+        /*AMD : Greeting pada halaman depan sampai ke tombol 
   #1 = 09/09/2016 - adit_mdd
 */
-    
-    #littlePanelPromotion {
-        background: #f4f4f4;
-        width: 100%;
-        height: auto;
-        box-shadow: 0px 0px 5px #999;
-    }
-    
-    #littlePanelPromotion .panelContent {
-        text-align: left;
-        margin: 30px 0px 30px 0px;
-    }
-    
-    #littlePanelPromotion .panelContent .titleContent span {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: bold;
-        font-size: 15px;
-        color: #292929;
-    }
-    
-    #littlePanelPromotion .panelContent .bodyContent {
-        margin-top: 7px;
-    }
-    
-    #littlePanelPromotion .panelContent .bodyContent span {
-        font-size: 13px;
-        color: #4a4a4a;
-    }
-    /*
+        
+        #littlePanelPromotion {
+            background: #f4f4f4;
+            width: 100%;
+            height: auto;
+            box-shadow: 0px 0px 5px #999;
+        }
+        
+        #littlePanelPromotion .panelContent {
+            text-align: left;
+            margin: 30px 0px 30px 0px;
+        }
+        
+        #littlePanelPromotion .panelContent .titleContent span {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            color: #292929;
+        }
+        
+        #littlePanelPromotion .panelContent .bodyContent {
+            margin-top: 7px;
+        }
+        
+        #littlePanelPromotion .panelContent .bodyContent span {
+            font-size: 13px;
+            color: #4a4a4a;
+        }
+        /*
 ------------UNTUK HALAMAN ABOUT--------------------
 Created By : Mohammad Satria;
 */
-    
-    #aboutPanel .background {
-        background: white;
-    }
-    
-    .active {
-        background-color: rgba(4, 20, 35, 0.95);
-        border-radius: 4px;
-    }
-    
-    .active:hover {
-        background: red;
-        border: 1px solid rgba(4, 20, 35, 0.95);
-    }
-    
-    .logoRaintek {
-        margin-left: 15%;
-        margin-top: 10%;
-    }
-    
-    .tentangKami .list {
-        background-color: #d9534f;
-        width: 13%;
-        height: 2px;
-        margin-top: 5px;
-    }
-    
-    .tentangKami {
-        width: 100%;
-        padding-left: 10%;
-        margin-top: 5%;
-    }
-    
-    .tentangKami h1 {
-        font-size: 22px;
-    }
-    
-    .tentangKami .raintekAdalahhead:before {
-        content: "Raintek";
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    
-    .tentangKami .raintekAdalahbody:before {
-        content: "Raintek (Ragam Indo Teknologi) adalah perusahaan startup yang berfokus pada pembuatan aplikasi baik web, desktop ataupun mobile. Kami telah memiliki cukup banyak pengalaman dalam penanganan pembuatan aplikasi, banyak sekali aplikasi yang telah kami buat.Kami memiliki tim yang dapat diandalkan, sehingga memudahkan dan mempercepat pekerjaan yang ada.";
-        color: #05101a;
-    }
-    
-    .tentangKami .raintekAdalahfoot:before {
-        content: " Dalam pembuatan aplikasi pun kami memiliki desain yang bervariasi dan user friendly jadi user tidak akan bosan dan dapat dengan mudah menggunakan aplikasi. karena kami memiliki desainer web yang telah berpengalaman.";
-        color: #05101a;
-    }
-    
-    .tentangKami p {
-        padding-top: 2%;
-        text-align: left;
-        line-height: 17px;
-        font-size: 14px;
-    }
-    /*
+        
+        #aboutPanel .background {
+            background: white;
+        }
+        
+        .active {
+            background-color: rgba(4, 20, 35, 0.95);
+            border-radius: 4px;
+        }
+        
+        .active:hover {
+            background: red;
+            border: 1px solid rgba(4, 20, 35, 0.95);
+        }
+        
+        .logoRaintek {
+            margin-left: 15%;
+            margin-top: 10%;
+        }
+        
+        .tentangKami .list {
+            background-color: #d9534f;
+            width: 13%;
+            height: 2px;
+            margin-top: 5px;
+        }
+        
+        .tentangKami {
+            width: 100%;
+            padding-left: 10%;
+            margin-top: 5%;
+        }
+        
+        .tentangKami h1 {
+            font-size: 22px;
+        }
+        
+        .tentangKami .raintekAdalahhead:before {
+            content: "Raintek";
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .tentangKami .raintekAdalahbody:before {
+            content: "Raintek (Ragam Indo Teknologi) adalah perusahaan startup yang berfokus pada pembuatan aplikasi baik web, desktop ataupun mobile. Kami telah memiliki cukup banyak pengalaman dalam penanganan pembuatan aplikasi, banyak sekali aplikasi yang telah kami buat.Kami memiliki tim yang dapat diandalkan, sehingga memudahkan dan mempercepat pekerjaan yang ada.";
+            color: #05101a;
+        }
+        
+        .tentangKami .raintekAdalahfoot:before {
+            content: " Dalam pembuatan aplikasi pun kami memiliki desain yang bervariasi dan user friendly jadi user tidak akan bosan dan dapat dengan mudah menggunakan aplikasi. karena kami memiliki desainer web yang telah berpengalaman.";
+            color: #05101a;
+        }
+        
+        .tentangKami p {
+            padding-top: 2%;
+            text-align: left;
+            line-height: 17px;
+            font-size: 14px;
+        }
+        /*
     team
 */
-    
-    .team {
-        padding: 7px 0px 40px 0px;
-        background-color: #f8f8f8;
-        /*background-color: red;*/
-        margin: 0 auto;
-        padding-bottom: 20px;
-        margin-top: 20px;
-    }
-    
-    .team .tim:before {
-        content: "Tim Kami";
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    
-    .team .list {
-        background-color: #d9534f;
-        width: 8.6%;
-        height: 2px;
-        margin-top: 7px;
-    }
-    
-    .team h1 {
-        font-size: 25px;
-    }
-    
-    .team p {
-        font-size: 15px;
-    }
-    
-    .italic {
-        font-style: italic !important;
-    }
-    
-    #aboutPanel .margin {
-        margin-bottom: 43px;
-        margin-top: 24px;
-    }
-    
-    .kotakKeterangan {
-        padding-top: 40px;
-        padding-bottom: 10px;
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        position: relative;
-    }
-    
-    .kotakKeterangan .imgPanel {
-        width: 180px;
-        height: 189px;
-        background-size: cover;
-        text-align: center;
-        margin: 0 auto;
-    }
-    
-    .imgsatria {
-        background: url('../img/adit.png');
-        background-size: cover;
-    }
-    
-    .imgadit {
-        background: url('../img/adit.png');
-        background-size: cover;
-    }
-    
-    .imgagus {
-        background: url('../img/adit.JPG');
-        background-size: cover;
-    }
-    
-    .imgidrus {
-        background: url('../img/adit.JPG');
-        background-size: cover;
-    }
-    
-    .namaJabatanPanel {
-        width: 100%;
-        /*background: red;*/
-        position: relative;
-    }
-    
-    .nama {
-        font-size: 15px;
-        text-transform: uppercase;
-        color: #05101a;
-        letter-spacing: .6px;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    .jabatan {
-        font-size: 13px;
-        font-style: italic;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    .keunggulan h1 {
-        font-size: 25px;
-    }
-    
-    .noneBorderBottom {
-        border-bottom: none !important;
-    }
-    /*-------------------SELESAI UNTUK CSS PAGE ABOUT-------------*/
+        
+        .team {
+            padding: 7px 0px 40px 0px;
+            background-color: #f8f8f8;
+            /*background-color: red;*/
+            margin: 0 auto;
+            padding-bottom: 20px;
+            margin-top: 20px;
+        }
+        
+        .team .tim:before {
+            content: "Tim Kami";
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .team .list {
+            background-color: #d9534f;
+            width: 8.6%;
+            height: 2px;
+            margin-top: 7px;
+        }
+        
+        .team h1 {
+            font-size: 25px;
+        }
+        
+        .team p {
+            font-size: 15px;
+        }
+        
+        .italic {
+            font-style: italic !important;
+        }
+        
+        #aboutPanel .margin {
+            margin-bottom: 43px;
+            margin-top: 24px;
+        }
+        
+        .kotakKeterangan {
+            padding-top: 40px;
+            padding-bottom: 10px;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+        
+        .kotakKeterangan .imgPanel {
+            width: 180px;
+            height: 189px;
+            background-size: cover;
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        .imgsatria {
+            background: url('../img/adit.png');
+            background-size: cover;
+        }
+        
+        .imgadit {
+            background: url('../img/adit.png');
+            background-size: cover;
+        }
+        
+        .imgagus {
+            background: url('../img/adit.JPG');
+            background-size: cover;
+        }
+        
+        .imgidrus {
+            background: url('../img/adit.JPG');
+            background-size: cover;
+        }
+        
+        .namaJabatanPanel {
+            width: 100%;
+            /*background: red;*/
+            position: relative;
+        }
+        
+        .nama {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #05101a;
+            letter-spacing: .6px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .jabatan {
+            font-size: 13px;
+            font-style: italic;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .keunggulan h1 {
+            font-size: 25px;
+        }
+        
+        .noneBorderBottom {
+            border-bottom: none !important;
+        }
+        /*-------------------SELESAI UNTUK CSS PAGE ABOUT-------------*/
