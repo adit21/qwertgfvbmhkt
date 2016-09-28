@@ -657,7 +657,7 @@ Created By : Mohammad Satria;
         }
         
         .kotakKeterangan {
-            padding-top: 40px;
+            padding-top: 2px;
             padding-bottom: 10px;
             display: inline-block;
             width: 100%;
@@ -666,30 +666,25 @@ Created By : Mohammad Satria;
         }
         
         .kotakKeterangan .imgPanel {
-            width: 180px;
-            height: 189px;
+            width: 250px;
+            height: 240px;
             background-size: cover;
             text-align: center;
             margin: 0 auto;
         }
         
         .imgsatria {
-            background: url('../img/adit.png');
+            background: url('../img/satria.png');
             background-size: cover;
         }
         
         .imgadit {
-            background: url('../img/adit.png');
+            background: url('../img/satria.png');
             background-size: cover;
         }
         
         .imgagus {
-            background: url('../img/adit.JPG');
-            background-size: cover;
-        }
-        
-        .imgidrus {
-            background: url('../img/adit.JPG');
+            background: url('../img/agus.png');
             background-size: cover;
         }
         
