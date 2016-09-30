@@ -33,6 +33,14 @@ $(function() {
 });
 $(function() {
     $(".layanan").typed({
+        strings: ["LAYANAN"],
+        typeSpeed: 0,
+        contentType: 'html',
+        showCursor: false,
+    });
+});
+$(function() {
+    $(".kontak").typed({
         strings: ["KONTAK KAMI"],
         typeSpeed: 0,
         contentType: 'html',
