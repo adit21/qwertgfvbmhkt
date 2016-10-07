@@ -33,6 +33,39 @@
             </script>
             <script src="../bower_components/smoothscrolladit/smoothscrolladit.js" type="text/javascript">
             </script>
+            <script>
+                $(function() {
+                var menu = $('#porto-menu'),
+                    pos = menu.offset();
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > pos.top && menu.hasClass('porto-menu-default')) {
+                        menu.fadeOut('fast', function() {
+                            $(this).removeClass('porto-menu-default').addClass('porto-menu-fixed').fadeIn('fast');
+                        });
+                    } else if ($(this).scrollTop() <= pos.top && menu.hasClass('porto-menu-fixed')) {
+                        menu.fadeOut('fast', function() {
+                            $(this).removeClass('porto-menu-fixed').addClass('porto-menu-default').fadeIn('fast');
+                        });
+                    }
+                });
+            });
+            </script>
+            <script language="javascript">
+                document.onkeydown = function(e) {
+                if(event.keyCode == 123) {
+                return false;
+                }
+                // if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                // return false;
+                // }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                   return false;
+                }
+                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+                }
+             }
+            </script>
         </meta>
     </head>
 </html>
@@ -44,40 +77,36 @@
         <!-- AMD : Background utama halaman depan -->
         <div class="bg">
         </div>
+        <div class="porto-menu-default navbar-fixed-top" id="porto-menu">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" draggable="false" href="#" style="padding: 0 !important;margin-top: -16px;width:20%;height:80px;">
+                        <img alt="Raintek - Software Studio & IT Consultant" class="companyLogo" draggable="false" src="../img/logo_raintek.png">
+                        </img>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right menu-panel-custom">
+                    <li>
+                        <a class="beranda" href="../">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="tentang" href="about.html#aboutPanel">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="portofolio" href="portofolio.html">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="layanan" href="#!">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!-- AMD : navbar untuk brand logo dan menu utama -->
         <div id="custom-panel">
-            <nav class="navbar navbar-default navbar-fixed-top ">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="../">
-                            <img alt="Raintek - Software Studio & IT Consultant" class="companyLogo" src="../img/logo_raintek.png">
-                            </img>
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right menu-panel-custom">
-                        <li>
-                            <a class="beranda" href="../">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="tentang active" href="#pageScroll">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="portofolio" href="#!">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="layanan" href="#!">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="btn btn-primary contactext" href="#!">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
             <!-- AMD : Greeting Content -->
             <div id="greetingMsg">
                 <div class="container">
@@ -103,15 +132,10 @@
                                     </br>
                                 </div>
                                 <div class="button">
-                                    <a class="btn btn-primary btn1" href="#">
-                                        Layanan Kami
-                                    </a>
-                                    <a class="btn btn-danger" href="#">
+                                    <a class="btn btn-default button" href="page/portofolio.html">
                                         Lihat Portfolio
                                     </a>
                                 </div>
-                            </div>
-                            <div id="pageScroll">
                             </div>
                         </div>
                     </div>
@@ -120,24 +144,24 @@
         </div>
     </div>
     <!-- TENTANG RAINTEK -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4">
-                <img class="logoRaintek" src="../img/studio-cricles.png" width="300">
-                </img>
-            </div>
-            <div class="col-md-8">
-                <div class="tentangKami">
-                    <h1>
-                        Tentang Raintek
-                    </h1>
-                    <p>
-                        Raintek (Ragam Indo Teknologi) adalah perusahaan startup yang berfokus pada pembuatan aplikasi baik web, desktop ataupun mobile. Kami telah memiliki cukup banyak pengalaman dalam penanganan pembuatan aplikasi, banyak sekali aplikasi yang telah kami buat.
-                        Kami memiliki tim yang dapat diandalkan, sehingga memudahkan dan mempercepat pekerjaan yang ada.
-                    </p>
-                    <p>
-                        Dalam pembuatan aplikasi pun kami memiliki desain yang bervariasi dan user friendly jadi user tidak akan bosan dan dapat dengan mudah menggunakan aplikasi. karena kami memiliki desainer web yang telah berpengalaman. "Come and Join with we together".
-                    </p>
+    <div id="aboutPanel">
+        <div class="container-fluid background">
+            <div class="row margin">
+                <div class="col-md-4">
+                    <img class="logoRaintek" draggable="false" src="../img/studio-cricles.png" width="300">
+                    </img>
+                </div>
+                <div class="col-md-8">
+                    <div class="tentangKami">
+                        <h1 class="raintekAdalahhead">
+                            <div class="list">
+                            </div>
+                        </h1>
+                        <p class="raintekAdalahbody">
+                        </p>
+                        <p class="raintekAdalahfoot">
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -145,9 +169,10 @@
     <!-- TIM -->
     <div class="team row">
         <center>
-            <h1>
-                Tim
+            <h1 class="tim">
             </h1>
+            <div class="list">
+            </div>
         </center>
         <p class="italic">
             "Tim yang baik adalah yang dapat bekerja sama dan saling membantu satu sama lain"
@@ -156,25 +181,27 @@
         <div class="col-md-3">
             <div class="kotakKeterangan">
                 <div class="imgPanel imgsatria">
-                    <div class="title">
-                        <h3 class="nama">
-                            Wahyu Sahaja
-                        </h3>
-                        <em class="jabatan">
-                            Back-End Developer
-                        </em>
-                    </div>
+                </div>
+                <div class="namaJabatanPanel">
+                    <h3 class="nama">
+                        Mohammad Satria
+                    </h3>
+                    <em class="jabatan">
+                        Back-End Developer
+                    </em>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="kotakKeterangan">
                 <div class="imgPanel imgadit">
+                </div>
+                <div class="namaJabatanPanel">
                     <h3 class="nama">
-                        Wahyu Sahaja
+                        Aditya Mahaputra Dirgantara
                     </h3>
                     <em class="jabatan">
-                        Back-End Developer
+                        Marketing & Designer
                     </em>
                 </div>
             </div>
@@ -182,23 +209,27 @@
         <div class="col-md-3">
             <div class="kotakKeterangan">
                 <div class="imgPanel imgagus">
+                </div>
+                <div class="namaJabatanPanel">
                     <h3 class="nama">
                         Wahyu Sahaja
                     </h3>
                     <em class="jabatan">
-                        Back-End Developer
+                        Front-End Developer
                     </em>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="kotakKeterangan">
-                <div class="imgPanel imgidrus">
+                <div class="imgPanel imgagus">
+                </div>
+                <div class="namaJabatanPanel">
                     <h3 class="nama">
                         Muhammad Idrus
                     </h3>
                     <em class="jabatan">
-                        Full-stack developer
+                        Front-End Developer
                     </em>
                 </div>
             </div>
